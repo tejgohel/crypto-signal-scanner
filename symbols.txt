@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  symbols.txt  —  CRYPTO scanner watchlist
+#
+#  One Binance USDT spot symbol per line (UPPERCASE, e.g. BTCUSDT).
+#  Lines starting with '#' and blank lines are ignored.
+#  Add / remove freely, then re-run  seed_db.py  to fetch history for new ones.
+# ─────────────────────────────────────────────────────────────────────────────
+BTCUSDT
+ETHUSDT
+BNBUSDT
+SOLUSDT
+XRPUSDT
+ADAUSDT
+DOGEUSDT
+AVAXUSDT
+TRXUSDT
+DOTUSDT
+LINKUSDT
+POLUSDT
+LTCUSDT
+SHIBUSDT
+BCHUSDT
+NEARUSDT
+UNIUSDT
+ICPUSDT
+APTUSDT
+ATOMUSDT
+PAXGUSDT

@@ -1,0 +1,41 @@
+# ── SECRETS — never commit ───────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.token
+
+# ── PRIVATE STRATEGY ─────────────────────────────────────────────────────────
+#  If you keep your real logic in separately named files, ignore them here so a
+#  careless `git add -A` can never publish your edge.  The committed
+#  indicators.py / strategy_state.py are templates — edit them locally and use
+#  `git update-index --skip-worktree <file>` if you don't want your versions
+#  tracked either.
+pine_*.py
+strategy_private*.py
+private/
+secret/
+
+# ── Compiled bytecode (a .pyc is decompilable — it leaks your strategy) ──────
+__pycache__/
+*.py[cod]
+*.so
+
+# ── Generated data ───────────────────────────────────────────────────────────
+candles.db
+candles.db-journal
+candles.db-wal
+candles.db-shm
+*.sqlite
+*.sqlite3
+signal_store/
+*.log
+
+# ── Environments / tooling ───────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.python-version
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
