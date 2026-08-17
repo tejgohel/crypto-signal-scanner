@@ -11,6 +11,13 @@ dashboard, and Telegram alerts.
 > order blocks, an ML model. Fill in two files and the whole pipeline runs it
 > live, 24/7.
 
+![The live dashboard with a custom rule plugged in — one card per signal name, newest first](docs/dashboard.png)
+
+*The dashboard above is running a private rule set: each name added to
+`SIGNAL_COLS` gets its own card, and the counters at the top total across all
+of them. Out of the box `SIGNAL_COLS` is `["BUY", "SELL"]`, so a fresh clone
+shows two cards and fills them as soon as your logic starts firing.*
+
 ---
 
 ## What you get for free
